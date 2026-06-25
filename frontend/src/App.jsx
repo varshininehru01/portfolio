@@ -8,6 +8,7 @@ function App() {
         <div className="hero-content">
           <h3>Hello, I'm</h3>
           <h1>Varshini</h1>
+
           <h2>
             Electronics & Instrumentation Engineer <br />
             MERN Stack Developer
@@ -15,8 +16,9 @@ function App() {
 
           <p>
             Passionate about building modern web applications using React,
-            Node.js, Express, and MongoDB. Currently pursuing B.E Electronics &
-            Instrumentation Engineering at Kongu Engineering College.
+            Node.js, Express.js, and MongoDB. Currently pursuing B.E.
+            Electronics and Instrumentation Engineering at Kongu Engineering
+            College.
           </p>
 
           <div className="hero-buttons">
@@ -60,7 +62,7 @@ function App() {
           <div className="skill-card">React JS</div>
           <div className="skill-card">Node JS</div>
           <div className="skill-card">Express JS</div>
-          <div className="skill-card">MongoDB</div>
+          <div className="skill-card">MongoDB Atlas</div>
           <div className="skill-card">Git & GitHub</div>
         </div>
       </section>
@@ -73,9 +75,21 @@ function App() {
           <h3>Attendance Management System</h3>
 
           <p>
-            Developed a React-based attendance management system to mark
-            students present or absent and display attendance statistics.
+            Developed a Full Stack Attendance Management System using React.js,
+            Node.js, Express.js, and MongoDB Atlas. The system enables faculty
+            to record daily attendance, store attendance records securely in
+            MongoDB Atlas, view attendance statistics, and manage student data
+            through a responsive web interface.
           </p>
+
+          <a
+            href="https://attendance-1-frontend.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            🚀 Live Demo
+          </a>
         </div>
 
         <div className="project-card">
@@ -83,7 +97,8 @@ function App() {
 
           <p>
             Built a MERN Stack application to manage student records with CRUD
-            operations using MongoDB, Express, React, and Node.js.
+            operations. Users can add, update, delete, and view student details
+            through a responsive interface connected to MongoDB Atlas.
           </p>
         </div>
 
@@ -92,7 +107,8 @@ function App() {
 
           <p>
             Designed and developed a responsive portfolio website showcasing
-            skills, projects, and achievements.
+            technical skills, projects, education, and contact information
+            using React and modern CSS.
           </p>
         </div>
       </section>
@@ -126,11 +142,25 @@ function App() {
           </p>
 
           <p>
-            <strong>GitHub:</strong> github.com/varshini
+            <strong>GitHub:</strong>{" "}
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/varshini
+            </a>
           </p>
 
           <p>
-            <strong>LinkedIn:</strong> linkedin.com/in/varshini
+            <strong>LinkedIn:</strong>{" "}
+            <a
+              href="https://www.linkedin.com/in/varshini-n-j-21474232/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/varshini-n-j-21474232
+            </a>
           </p>
         </div>
       </section>
